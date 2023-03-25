@@ -3,11 +3,22 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
     "build": " cd backend && npm install && cd ../frontend && npm install && npm run build",
-    "start": "node backend/server.js", 
+    "start": "node backend/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saielmejor/anazon.git"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saielmejor/anazon/issues"
+  },
+  "homepage": "https://github.com/saielmejor/anazon#readme"
 }
